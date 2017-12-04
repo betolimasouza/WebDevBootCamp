@@ -1,0 +1,11 @@
+h1 {
+color:rgba(25, 150, 50, 1);
+border: 5px solid black
+}
+
+body {
+    background: lightgoldenrodyellow
+    /* background: url(https://images.woodmagazine.mdpcdn.com/sites/default/files/styles/scale_1500_1500/public/image/2016/11/30/WD318111.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
