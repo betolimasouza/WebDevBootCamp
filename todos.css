@@ -1,0 +1,53 @@
+/* Element */
+body {
+    background: lightblue;
+}
+
+/* id */
+#check3 {
+    background: red;
+}
+
+/* class */
+.completed {
+text-decoration: line-through;
+}
+
+/* Everything on a page */
+* {
+border: 1px solid lightblue;
+}
+
+/* Descendant - All elements (2nd) inside a type of element (1st): 1st 2nd */
+
+li a {
+    border: 2px solid lightgreen;
+}
+
+/* Adjacent - All elements (2nd) next to another element (1st): 1st + 2nd  */
+
+h4 + ul {
+    border: 4px solid red;
+}
+
+/* Attribute - Select element by attribute value*/
+
+a[href="http://www.google.com"] {
+    background: lightcyan;
+    text-decoration: underline wavy blue;
+}
+
+input[type="checkbox"]{
+    background: blue;
+}
+
+/* nth of type */
+
+ul:nth-of-type(3){
+    background: purple;
+}
+
+li:nth-of-type(3){
+    text-decoration: underline yellow wavy;
+}
+
