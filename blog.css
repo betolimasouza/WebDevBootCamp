@@ -1,0 +1,47 @@
+.mainDiv {
+    border: 30px solid #bdc3c7;
+    max-width: 700px;
+    width: 70%;
+    margin: 20px auto;
+    
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title{
+    color: #2c3e50;
+    font-size: 2.0rem;
+}
+
+.blogPost {
+    padding: 10px;
+    margin: auto;
+    text-align: justify;
+}
+
+.date {
+    color: #3498db;
+    letter-spacing: 0.2rem;
+    font-family: 'Nunito', sans-serif;    
+}
+
+.quote {
+    border-left: 6px solid #bdc3c7;
+    margin-left: 3px;
+    padding-left: 10px;
+  
+}
+
+
+.blogPost:last-of-type {
+    border-bottom:none;
+    margin-bottom:0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
