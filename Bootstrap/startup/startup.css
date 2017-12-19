@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1498036882173-b41c28a8ba34?auto=format&fit=crop&w=2000&q=80);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    color:white;
+    
+}
+
+html {
+    height: 100%;
+}
+
+#content {
+    text-align: center;
+    padding-top: 25%;
+    text-shadow: 0px 4px 3px   rgba(50,50,50,0.4),
+                 0px 8px 13px  rgba(125,125,125,0.1),
+                 0px 18px 23px rgba(125,125,125,0.1);
+    
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5em;
+}
+
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0)
+}
